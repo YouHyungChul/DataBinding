@@ -11,14 +11,17 @@
         tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인"/>
     <Button
+        android:id="@+id/goToNaver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="네이버로"/>
     <Button
+        android:id="@+id/goToGoogleMaps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="구글지도로"/>
